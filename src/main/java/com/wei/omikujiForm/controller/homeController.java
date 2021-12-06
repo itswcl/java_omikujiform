@@ -18,10 +18,7 @@ public class homeController {
 		return "index.jsp";
 	}
 	
-	
 	// POST request message
-//	@RequestMapping(value="/omikuji/formSubmit", method=RequestMethod.POST)
-
 	@PostMapping("/omikuji/formSubmit")
 	public String formOmikuji(
 			@RequestParam(value="numbers") String number,
