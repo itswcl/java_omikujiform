@@ -26,7 +26,7 @@
 					<!-- forEach var link to out value -->
 					<!-- forEach run from begin to end -->
 					<c:forEach var = "number" begin = "5" end="25">
-						<option><c:out value ="${ number }"/></option>
+						<option value="${ number }">${ number }</option>
 					</c:forEach>
 				</select>
 				<label>Enter the name of any city</label>
