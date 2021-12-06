@@ -19,7 +19,7 @@
 
 	<div class="container d-flex justify-content-center">
 
-		<form class="form-group col-5 text-center" action="/show" method="post">
+		<form action="/omikuji/formSubmit" method="post" class="form-group col-5 text-center">
 			<h1>Send an Omikuji!</h1>
 				<label>Pick any number from 5 to 25</label>
 				<select class="form-control" name="numbers">
